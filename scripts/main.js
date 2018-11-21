@@ -8,10 +8,10 @@ const url = require('url')
 let mainWindow
 
 function createWindow () {
-  mainWindow = new BrowserWindow({width: 400, height: 600, frame: false, icon: "icon.png", resizable: false, show: false})
+  mainWindow = new BrowserWindow({width: 600, height: 200, frame: false, icon: "icon.png", resizable: false, show: false})
 
   mainWindow.loadURL(url.format({
-    pathname: path.join(__dirname, './base/index.html'),
+    pathname: path.join(__dirname, '../base/splash.html'),
     protocol: 'file:',
     slashes: true
   }))

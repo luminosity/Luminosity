@@ -8,7 +8,7 @@ const url = require('url')
 let mainWindow
 
 function createWindow () {
-  mainWindow = new BrowserWindow({width: 600, height: 200, frame: false, icon: "../images/icon.png", resizable: false, show: false})
+  mainWindow = new BrowserWindow({width: 600, height: 200, frame: false, icon: "./images/icon.png", resizable: false, show: false})
 
   mainWindow.loadURL(url.format({
     pathname: path.join(__dirname, '../base/splash.html'),

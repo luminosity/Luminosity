@@ -1,0 +1,20 @@
+.navagation
+{
+    display: flex;
+    align-items: center;
+
+    background-color: #D2DBE0;
+}
+
+.navagation-logo
+{
+    display: inline-flex;
+
+    margin: .2em 0 .2em 1em;
+
+    font-family: roboto;
+    font-size: 14px;
+    letter-spacing: 1.25px;
+    color: #82929A;
+    font-weight: 200;
+}

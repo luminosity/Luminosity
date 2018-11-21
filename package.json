@@ -1,0 +1,9 @@
+{
+  "name": "luminosity",
+  "version": "1.0.0A",
+  "description": "Alpha Development of the Luminosity Photo Viewer",
+  "main": "scripts/main.js",
+  "scripts": {
+    "start": "electron ."
+  }
+}

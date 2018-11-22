@@ -4,6 +4,8 @@
     align-items: center;
 
     background-color: #D2DBE0;
+
+    -webkit-app-region: drag;
 }
 
 .navagation-logo
@@ -17,4 +19,24 @@
     letter-spacing: 1.25px;
     color: #82929A;
     font-weight: 200;
+}
+
+.navagation-windowcontrol
+{
+    display: inline-flex;
+
+    margin-right: .4em;
+
+    cursor: pointer;
+
+    -webkit-app-region: no-drag;
+}
+
+#minimize
+{
+    margin-left: auto;
+}
+#close
+{
+    margin-right: 1em;
 }

@@ -1,6 +1,6 @@
 const {remote} = require("electron")
 
-window.addEventListener("onload", () => {
+window.addEventListener("load", () => {
     document.getElementById("minimize").addEventListener("click", () => {
         remote.BrowserWindow.getFocusedWindow().minimize()
     })
